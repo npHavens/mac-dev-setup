@@ -1,0 +1,26 @@
+{
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    // "overrideConfigFile": ".eslintrc.js",
+    "extensions": [".ts", ".tsx", ".js"]
+  },
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.configOverrides": {
+    "ignoreFiles": ["**/*.tsx"]
+  },
+  // "stylelint.autoFixOnSave": true,
+  "typescript.tsdk": "./app/node_modules/typescript/lib"
+}
