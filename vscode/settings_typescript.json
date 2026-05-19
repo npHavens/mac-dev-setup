@@ -7,7 +7,7 @@
   ],
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
-    // "overrideConfigFile": ".eslintrc.js",
+    "overrideConfigFile": ".eslintrc.js",
     "extensions": [".ts", ".tsx", ".js"]
   },
   "editor.wordWrap": "on",
@@ -21,6 +21,6 @@
   "stylelint.configOverrides": {
     "ignoreFiles": ["**/*.tsx"]
   },
-  // "stylelint.autoFixOnSave": true,
+  "stylelint.autoFixOnSave": true,
   "typescript.tsdk": "./app/node_modules/typescript/lib"
 }
