@@ -13,3 +13,9 @@ fi
 
 echo "  Installing formulae..."
 brew install git wget curl jq tree htop gh awscli
+
+# CLI productivity
+brew install fzf ripgrep bat fd zoxide direnv
+
+# Databases
+brew install postgresql@16 redis

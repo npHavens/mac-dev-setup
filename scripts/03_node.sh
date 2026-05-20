@@ -20,3 +20,16 @@ nvm install --lts
 nvm use --lts
 nvm alias default 'lts/*'
 echo "  Node $(node --version) active"
+
+echo "  Installing yarn and pnpm..."
+if ! command -v yarn &>/dev/null; then
+  npm install -g yarn
+else
+  echo "  yarn already installed"
+fi
+
+if ! command -v pnpm &>/dev/null; then
+  npm install -g pnpm
+else
+  echo "  pnpm already installed"
+fi

@@ -20,6 +20,7 @@ extensions=(
   esbenp.prettier-vscode
   github.copilot
   github.copilot-chat
+  hex-ci.stylelint-plus
   ms-azuretools.vscode-docker
   ms-python.debugpy
   ms-python.python
@@ -29,7 +30,6 @@ extensions=(
   oderwat.indent-rainbow
   pkief.material-icon-theme
   streetsidesoftware.code-spell-checker
-  stylelint.vscode-stylelint
   usernamehw.errorlens
 )
 
